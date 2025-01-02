@@ -1,0 +1,47 @@
+{
+    "action": {
+        "default_icon": {
+            "16":  "images/icon/status/status-white-16.png",
+            "24":  "images/icon/status/status-white-24.png",
+            "32":  "images/icon/status/status-white-32.png",
+            "48":  "images/icon/status/status-white-48.png",
+            "64":  "images/icon/status/status-white-64.png",
+            "96":  "images/icon/status/status-white-96.png",
+            "128": "images/icon/status/status-white-128.png"
+        },
+        "default_popup": "page/light/dark/popup.html",
+        "default_title": "Pluma"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "description": "Spellcheck and edit text.",
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "icons": {
+        "16":  "images/icon/logo/logo-dark-16.png",
+        "24":  "images/icon/logo/logo-dark-24.png",
+        "32":  "images/icon/logo/logo-dark-32.png",
+        "48":  "images/icon/logo/logo-dark-48.png",
+        "64":  "images/icon/logo/logo-dark-64.png",
+        "96":  "images/icon/logo/logo-dark-96.png",
+        "128": "images/icon/logo/logo-dark-128.png"
+    },
+    "incognito": "spanning",
+    "manifest_version": 3,
+    "minimum_chrome_version": "102",
+    "name": "Pluma",
+    "options_ui": {
+        "open_in_tab": true,
+        "page": "page/light/dark/options.html"
+    },
+    "permissions": [
+        "scripting",
+        "storage",
+        "tabs"
+    ],
+    "short_name": "Pluma",
+    "version": "2025.1.1.0"
+}

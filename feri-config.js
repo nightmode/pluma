@@ -26,7 +26,8 @@ module.exports = function(feri) {
     config.option.clean      = true
     config.option.build      = true
     config.option.watch      = true
-    config.option.extensions = true
+    config.option.extensions = false
+    config.option.debug      = false
 
     //-------
     // Paths
